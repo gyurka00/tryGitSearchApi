@@ -1,0 +1,40 @@
+header {
+  background-color: #f9f9f9;
+  border-bottom: 1px solid #ddd;
+  display: flex;
+  height: 80px;
+  position: fixed;
+  width: 100%;
+}
+
+input {
+  align-items: center;
+  max-width: 150px;
+}
+
+.pos-right {
+  display: flex;
+  justify-content: flex-end;
+  right: 75px;
+  top: 23px;
+}
+.input-group, .row, .col-lg-6{
+  width: 100%;
+  padding: 0;
+}
+
+table {
+  margin-top: 90px;
+}
+
+.header-title {
+  order: 1;
+}
+
+.search-bar {
+  order: 2;
+}
+
+h2 {
+  display: inline-block;
+}
