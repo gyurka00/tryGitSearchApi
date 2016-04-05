@@ -26,7 +26,10 @@
     </div>
   </header>
   <main class="container">
-    <table class="table table-striped table-responsive table-bordered" ng-if="repositoriesData">
+    <h3 class="margine-top" ng-if="!repositoriesData">
+      <center>Search a repository by name on Github</center>
+    </h3>
+    <table class="table table-striped table-responsive table-bordered margine-top" ng-if="repositoriesData">
       <tbody>
         <tr>
           <td>URL</td>
