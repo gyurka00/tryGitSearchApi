@@ -9,7 +9,9 @@
   "author": "György Csadó",
   "license": "ISC",
   "dependencies": {
+    "angular": "^1.5.3",
     "angular-chart.js": "^1.0.0-alpha3",
+    "angular-ui-router": "^1.0.0-alpha.4",
     "express": "^4.13.4",
     "gulp": "^3.9.1",
     "gulp-batch": "^1.0.5",

@@ -4,7 +4,8 @@ header {
   display: flex;
   height: 80px;
   position: fixed;
-  width: 100%; }
+  width: 100%;
+  top: 0; }
 
 input {
   align-items: center;
@@ -23,11 +24,9 @@ input {
 .margine-top {
   margin-top: 90px; }
 
-.header-title {
-  order: 1; }
+table {
+  margin-top: 90px; }
 
-.search-bar {
-  order: 2; }
-
-h2 {
-  display: inline-block; }
+.logo {
+  margin-top: 25px;
+  font-size: 3em; }

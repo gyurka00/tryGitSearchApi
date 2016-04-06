@@ -5,6 +5,7 @@ header {
   height: 80px;
   position: fixed;
   width: 100%;
+  top: 0;
 }
 
 input {
@@ -23,18 +24,15 @@ input {
   padding: 0;
 }
 
+.margine-top{
+  margin-top: 90px;
+}
+
 table {
   margin-top: 90px;
 }
 
-.header-title {
-  order: 1;
-}
-
-.search-bar {
-  order: 2;
-}
-
-h2 {
-  display: inline-block;
+.logo {
+  margin-top: 25px;
+  font-size: 3em;
 }
